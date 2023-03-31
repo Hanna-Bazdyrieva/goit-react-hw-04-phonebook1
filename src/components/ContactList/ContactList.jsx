@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const ContactList = ({ contacts, deleteContact }) => {
   return (
-    <Box as="ul" mx="auto" my={2} px={6} py={4} bg="list"borderRadius="20px" >
+    <Box as="ul" mx="auto" my={2} px={6} py={4} bg="list" borderRadius="20px">
       {contacts.map(({ id, name, number }) => (
         <ContactListItem
           key={id}

@@ -9,8 +9,7 @@ export const Input = styled.input`
   font-weight: ${p => p.theme.fontWeights.normal};
   line-height: 30px;
   border-radius: ${p => p.theme.radii.normal};
-border: 1px solid rgb(89 81 81);
-
+  border: 1px solid rgb(89 81 81);
 `;
 export const Title = styled.h3`
   padding: ${p => p.theme.space[4]}px 0;

@@ -12,17 +12,16 @@ export const Input = styled.input`
 
   width: ${p => p.theme.sizes[1]}px;
   padding: ${p => p.theme.space[2]}px;
-text-align: center;
+  text-align: center;
   font-size: ${p => p.theme.fontSizes.m};
   font-weight: ${p => p.theme.fontWeights.normal};
   text-transform: capitalize;
   line-height: 30px;
   border-radius: ${p => p.theme.radii.normal};
-border: 1px solid rgb(89 81 81);
+  border: 1px solid rgb(89 81 81);
 `;
 
 export const AddBtn = styled.button`
-
   margin: ${p => p.theme.space[4]}px auto;
   padding: ${p => p.theme.space[3]}px;
   width: ${p => p.theme.sizes[1]}px;

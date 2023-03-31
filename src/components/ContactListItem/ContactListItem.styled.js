@@ -16,7 +16,7 @@ export const ItemData = styled.span`
 `;
 
 export const DeleteBtn = styled.button`
-   padding: ${p => p.theme.space[3]}px;
+  padding: ${p => p.theme.space[3]}px;
   width: ${p => p.theme.sizes[0]}px;
 
   font-size: ${p => p.theme.fontSizes.m};
