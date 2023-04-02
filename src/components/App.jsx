@@ -61,14 +61,12 @@ const App = () => {
   };
 
   const filterContacts = () => {
-    console.log(contacts);
     return contacts.filter(contact =>
       contact.name.toLowerCase().includes(filter)
     );
   };
 
   const filteredContacts = filterContacts();
-  console.log(filteredContacts);
 
   return (
     <Section>
